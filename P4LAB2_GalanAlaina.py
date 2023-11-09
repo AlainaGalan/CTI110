@@ -15,13 +15,14 @@ number1 = int(input("Enter a number: "))
 number2 = int(input("Enter another number: "))
 if number1 <= number2:
     for item in range(number1, number2 + 1,5):
-        print(item, end =" ")
+        print(item)
             
 else:
     while number1 > number2:
-       number2 = int(input("Enter another number: "))
+        number1 = int(input("Enter a number: "))
+        number2 = int(input("Enter another number: "))
         for item in range(number1, number2 + 1,5):
-            print(item, end =" ")
+            print(item)
 
   
 
