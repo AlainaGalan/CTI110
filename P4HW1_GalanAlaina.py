@@ -30,6 +30,6 @@ print("Highest Grade:", end="\t") # Display "Highest Grade:", connects next prin
 print(max(grade_list)) # Display maximum test value from list
 print("Sum of Grades:", end="\t") # Display "Sum of Grades:", connects next print statement and uses tab to give it space
 print(sum(grade_list)) # Display the sum of all values in test list
-print("Average:", end="\t") # Display "Average:", connects next print statement and uses tab to give it space
-print(f"{sum(grade_list)/6:.2f}") # Display the sum of test and divides it by 6 to get the average. Round average to nearest tenth
+print("Average:", end="\t\t") # Display "Average:", connects next print statement and uses tab to give it space
+print(f"{sum(grade_list)/num_grades:.2f}") # Display the sum of test and divides it by 6 to get the average. Round average to nearest tenth
 
